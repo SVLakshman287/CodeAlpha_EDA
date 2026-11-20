@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CodeAlpha EDA Visual Charts</title>
+<style>
+  body { font-family: Segoe UI, sans-serif; background: #f4f6f9; padding: 30px; color: #222; }
+  .card { background: #fff; border-radius: 10px; padding: 24px; margin-bottom: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); max-width: 760px; }
+  h2 { margin-top: 0; color: #1e293b; }
+  .row { display: flex; align-items: center; margin: 10px 0; }
+  .label { width: 95px; font-weight: 600; }
+  .bar-wrap { flex: 1; background: #e2e8f0; border-radius: 6px; overflow: hidden; }
+  .bar { color: #fff; padding: 6px 10px; font-size: 13px; font-weight: 600; }
+  .blue { background: #2563eb; }
+  .teal { background: #0d9488; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h2>1. Book Price Distribution (GBP)</h2>
+    
+        <div class="row">
+            <span class="label">£10–£20</span>
+            <div class="bar-wrap"><div class="bar blue" style="width:431.20000000000005px">196</div></div>
+        </div>
+        <div class="row">
+            <span class="label">£20–£30</span>
+            <div class="bar-wrap"><div class="bar blue" style="width:453.20000000000005px">206</div></div>
+        </div>
+        <div class="row">
+            <span class="label">£30–£40</span>
+            <div class="bar-wrap"><div class="bar blue" style="width:429.00000000000006px">195</div></div>
+        </div>
+        <div class="row">
+            <span class="label">£40–£50</span>
+            <div class="bar-wrap"><div class="bar blue" style="width:451.00000000000006px">205</div></div>
+        </div>
+        <div class="row">
+            <span class="label">£50–£60</span>
+            <div class="bar-wrap"><div class="bar blue" style="width:435.6px">198</div></div>
+        </div>
+  </div>
+  <div class="card">
+    <h2>2. Book Count & Average Price by Star Rating</h2>
+    
+        <div class="row">
+            <span class="label">1 Star</span>
+            <div class="bar-wrap"><div class="bar teal" style="width:497.20000000000005px">226 books (Avg £34.56)</div></div>
+        </div>
+        <div class="row">
+            <span class="label">2 Star</span>
+            <div class="bar-wrap"><div class="bar teal" style="width:431.20000000000005px">196 books (Avg £34.81)</div></div>
+        </div>
+        <div class="row">
+            <span class="label">3 Star</span>
+            <div class="bar-wrap"><div class="bar teal" style="width:446.6px">203 books (Avg £34.69)</div></div>
+        </div>
+        <div class="row">
+            <span class="label">4 Star</span>
+            <div class="bar-wrap"><div class="bar teal" style="width:393.8px">179 books (Avg £36.09)</div></div>
+        </div>
+        <div class="row">
+            <span class="label">5 Star</span>
+            <div class="bar-wrap"><div class="bar teal" style="width:431.20000000000005px">196 books (Avg £35.37)</div></div>
+        </div>
+  </div>
+</body>
+</html>

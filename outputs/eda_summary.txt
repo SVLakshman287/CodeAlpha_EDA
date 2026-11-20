@@ -1,0 +1,42 @@
+============================================================
+EXPLORATORY DATA ANALYSIS (EDA) REPORT — BOOKS DATASET
+============================================================
+
+1. DATASET STRUCTURE & DATA QUALITY
+   - Total Records       : 1000
+   - Total Columns       : 4 (Title, Price_GBP, Rating, Availability)
+   - Unique Book Titles  : 999
+   - Duplicate Titles    : 1
+   - Missing/Invalid Rows: 0
+
+2. PRICE DISTRIBUTION (GBP)
+   - Mean Price          : £35.07
+   - Median Price        : £35.98
+   - Std Deviation       : £14.45
+   - Min Price           : £10.00 ('An Abundance of Katherines')
+   - Max Price           : £59.99 ('The Perfect Play (Play by Play #1)')
+
+3. PRICE BRACKET FREQUENCY
+   - £10–£20: 196 books (19.6%) ███████████████████
+   - £20–£30: 206 books (20.6%) ████████████████████
+   - £30–£40: 195 books (19.5%) ███████████████████
+   - £40–£50: 205 books (20.5%) ████████████████████
+   - £50–£60: 198 books (19.8%) ███████████████████
+
+4. RATING DISTRIBUTION & HYPOTHESIS CHECK (RATING VS. PRICE)
+   - 1 Star: 226 books | Mean Price: £34.56 | Median: £34.77
+   - 2 Star: 196 books | Mean Price: £34.81 | Median: £36.22
+   - 3 Star: 203 books | Mean Price: £34.69 | Median: £33.78
+   - 4 Star: 179 books | Mean Price: £36.09 | Median: £37.80
+   - 5 Star: 196 books | Mean Price: £35.37 | Median: £36.90
+
+5. INVENTORY AVAILABILITY
+   - In stock: 1000 books (100.0%)
+
+6. KEY ANALYTICAL INSIGHTS
+   - Uniform Pricing Spread: Mean (£35.07) and Median (£35.98) are nearly identical,
+     indicating a balanced, non-skewed price distribution between £10 and £60.
+   - Hypothesis Result: Higher star ratings do NOT correspond to higher prices;
+     average price remains ~£34–£36 across all 1-to-5 star tiers.
+   - Catalog Health: 100% of scraped books are currently listed as In Stock.
+============================================================
